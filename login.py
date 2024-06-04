@@ -6,7 +6,7 @@ def login_to_mattermost():
     password = input("Enter your Mattermost password: ")
 
     # Define the Mattermost API login URL
-    api_url = "https://<you-mattermost-url>/api/v4/users/login"
+    api_url = "https://<your-mattermost-url>/api/v4/users/login"
 
     # Create the login payload
     payload = {
